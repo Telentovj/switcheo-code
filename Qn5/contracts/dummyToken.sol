@@ -1,6 +1,7 @@
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
+// Dummy Token contract used to create dummy tokens
 contract DummyToken {
     string public name;
     string public symbol;
