@@ -1,0 +1,185 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/johnvijay/hardhat-tutorial/contracts/dummyToken.sol": {
+      "lastModificationDate": 1676128708339,
+      "contentHash": "26ce973fdf53f7418ea089f907534b53",
+      "sourceName": "contracts/dummyToken.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "DummyToken"
+      ]
+    },
+    "/Users/johnvijay/hardhat-tutorial/contracts/balancePrinter.sol": {
+      "lastModificationDate": 1676134949761,
+      "contentHash": "3d70c128717971c7e12fbdd9f39755f6",
+      "sourceName": "contracts/balancePrinter.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./dummyToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "BalancePrinter"
+      ]
+    },
+    "/Users/johnvijay/Documents/GitHub/switcheo-code-challenge/Qn5/contracts/balancePrinter.sol": {
+      "lastModificationDate": 1676525020637,
+      "contentHash": "8f02f2cee078faa39768d652c1d8af21",
+      "sourceName": "contracts/balancePrinter.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./dummyToken.sol",
+        "../node_modules/hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "BalancePrinter"
+      ]
+    },
+    "/Users/johnvijay/Documents/GitHub/switcheo-code-challenge/Qn5/contracts/dummyToken.sol": {
+      "lastModificationDate": 1676514451043,
+      "contentHash": "26ce973fdf53f7418ea089f907534b53",
+      "sourceName": "contracts/dummyToken.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "DummyToken"
+      ]
+    },
+    "/Users/johnvijay/Documents/GitHub/switcheo-code-challenge/Qn5/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1676514457264,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}

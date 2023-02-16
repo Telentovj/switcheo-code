@@ -1,0 +1,40 @@
+/* input */
+
+input[type="email"],
+input[type="text"],
+input[type="number"] {
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  border: 3px #b9b9bb;
+  background-color: #ffffff;
+  color: var(--gray-800);
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"] {
+  width: 400px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid var(--focus-ring-color);
+}
+
+input:invalid {
+  border: 2px solid #ff7d87;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 400px) {
+
+  input[type="email"],
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+  }
+}
